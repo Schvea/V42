@@ -1,4 +1,4 @@
-
+//Data one
 const baseOne = 10;
 const heightOne = 13;
 
@@ -14,3 +14,12 @@ const triangleTwo = (baseTwo * heightTwo) / 2
 console.log(triangleTwo)
 
 console.log(Math.max(triangleOne, triangleTwo));
+
+//Data two
+
+const baseThree = 20.3;
+const heightThree = 16.5;
+
+const triangleThree = (baseThree * heightThree) /2;
+
+console.log(triangleThree)
