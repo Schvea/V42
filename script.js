@@ -1,8 +1,16 @@
 
-const base = 10;
+const baseOne = 10;
+const heightOne = 13;
 
-const height = 13;
-
-const triangleOne = (base * height) / 2;
+const triangleOne = (baseOne * heightOne) / 2;
 
 console.log(triangleOne);
+
+
+const baseTwo = 16.5;
+const heightTwo = 20.3;
+
+const triangleTwo = (baseTwo * heightTwo) / 2
+console.log(triangleTwo)
+
+console.log(Math.max(triangleOne, triangleTwo));
